@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from utils.DataProcessing import preprocess_text
 
-word2vec_model = Word2Vec.load(r"C:\Users\B0g3ym4n\Documents\DoAn\model_trainings\word2vec_vi.model")
+word2vec_model = Word2Vec.load('model_trainings\word2vec_vi.model')
 
 def get_embeddings(document):
     embeddings = []

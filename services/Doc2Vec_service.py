@@ -2,7 +2,7 @@ from gensim.models import Doc2Vec
 from sklearn.metrics.pairwise import cosine_similarity
 from utils.DataProcessing import preprocess_text
 
-doc2vec_model = Doc2Vec.load(r"C:\Users\B0g3ym4n\Documents\DoAn\model_trainings\doc2vec_vi.model")
+doc2vec_model = Doc2Vec.load('model_trainings\doc2vec_vi.model')
 
 def get_embeddings(document):
     embeddings = []
